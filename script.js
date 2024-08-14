@@ -25,7 +25,7 @@ function sortBands(bands) {
 }
 
 function displayBands(bands) {
-    const list = document.getElementById('band');
+    const list = document.getElementById('bands');
     list.innerHTML = '';
     
     bands.forEach(band => {
